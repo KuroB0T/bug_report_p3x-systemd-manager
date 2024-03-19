@@ -13,9 +13,9 @@ Vulnerable version: <= v2024.4.113
 Vulnerable file: src/watchdog.js
 ```js
 module.exports = (settings) => {
-	...
+    ...
     const options = settings.options || '';
-const command = `${settings.sudo ? 'sudo ' : ''}systemctl --plain --no-pager --no-legend ${options} ${types}`;
+    const command = `${settings.sudo ? 'sudo ' : ''}systemctl --plain --no-pager --no-legend ${options} ${types}`;
     ...
 }
 
