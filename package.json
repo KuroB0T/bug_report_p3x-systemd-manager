@@ -1,0 +1,14 @@
+{
+  "name": "p3x-vuln",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "p3x-systemd-manager": "^2024.4.113"
+  }
+}
